@@ -29,10 +29,10 @@ RSGShared.Weapons = {
 	[`weapon_sniperrifle_rollingblock_exotic`] = { name = 'weapon_sniperrifle_rollingblock_exotic', label = 'Rollingblock Exotic Sniper Rifle',   weapontype = 'Sniper Rifle', ammotype = 'AMMO_RIFLE',    damagereason = 'Placeholder' },
 	[`weapon_sniperrifle_carcano`]             = { name = 'weapon_sniperrifle_carcano',             label = 'Rollingblock Carcano Sniper Rifle',  weapontype = 'Sniper Rifle', ammotype = 'AMMO_RIFLE',    damagereason = 'Placeholder' },
     -- shotgun
-	[`weapon_shotgun_doublebarrel`]            = { name = 'weapon_shotgun_doublebarrel',            label = 'Double Barrel Shotgum',              weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
-	[`weapon_shotgun_doublebarrel_exotic`]     = { name = 'weapon_shotgun_doublebarrel_exotic',     label = 'Double Barrel Exotic Shotgum',       weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
-	[`weapon_shotgun_sawedoff`]                = { name = 'weapon_shotgun_sawedoff',                label = 'Sawedoff Shotgum',                   weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
-	[`weapon_shotgun_semiauto`]                = { name = 'weapon_shotgun_semiauto',                label = 'Semi-Auto Shotgum',                  weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
+	[`weapon_shotgun_doublebarrel`]            = { name = 'weapon_shotgun_doublebarrel',            label = 'Double Barrel Shotgun',              weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
+	[`weapon_shotgun_doublebarrel_exotic`]     = { name = 'weapon_shotgun_doublebarrel_exotic',     label = 'Double Barrel Exotic Shotgun',       weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
+	[`weapon_shotgun_sawedoff`]                = { name = 'weapon_shotgun_sawedoff',                label = 'Sawedoff Shotgun',                   weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
+	[`weapon_shotgun_semiauto`]                = { name = 'weapon_shotgun_semiauto',                label = 'Semi-Auto Shotgun',                  weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
 	[`weapon_shotgun_pump`]                    = { name = 'weapon_shotgun_pump',                    label = 'Pump Action Shotgun',                weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
 	[`weapon_shotgun_repeating`]               = { name = 'weapon_shotgun_repeating',               label = 'Repeating Shotgun',                  weapontype = 'Shotgun',      ammotype = 'AMMO_SHOTGUN',  damagereason = 'Placeholder' },
     -- bow
@@ -48,7 +48,8 @@ RSGShared.Weapons = {
 	[`weapon_melee_knife_horror`]              = { name = 'weapon_melee_knife_horror',              label = 'Horror Knife',                       weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
 	[`weapon_melee_knife_rustic`]              = { name = 'weapon_melee_knife_rustic',              label = 'Rustic Knife',                       weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
 	[`weapon_melee_machete`]                   = { name = 'weapon_melee_machete',                   label = 'Machete',                            weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
-	[`weapon_melee_machete`]                   = { name = 'weapon_melee_machete',                   label = 'Machete',                            weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
+	[`weapon_melee_machete_horror`]            = { name = 'weapon_melee_machete_horror',            label = 'Machete Horror',                     weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
+	[`weapon_melee_machete_collector`]         = { name = 'weapon_melee_machete_collector',         label = 'Machete Collector',                  weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
 	[`weapon_melee_torch`]                     = { name = 'weapon_melee_torch',                     label = 'Torch',                              weapontype = 'Melee',        ammotype = nil,             damagereason = 'Placeholder' },
     -- held
 	[`weapon_melee_davy_lantern`]              = { name = 'weapon_melee_davy_lantern',              label = 'Davy Lantern',                       weapontype = 'Held',         ammotype = nil,             damagereason = 'Placeholder' },
@@ -73,4 +74,6 @@ RSGShared.Weapons = {
 	[`weapon_thrown_bolas_hawkmoth`]           = { name = 'weapon_thrown_bolas_hawkmoth',           label = 'Hawkmoth Balas',                     weapontype = 'Thrown',       ammotype = nil,             damagereason = 'Placeholder' },
 	[`weapon_thrown_bolas_ironspiked`]         = { name = 'weapon_thrown_bolas_ironspiked',         label = 'Iron Spiked Balas',                  weapontype = 'Thrown',       ammotype = nil,             damagereason = 'Placeholder' },
 	[`weapon_thrown_bolas_intertwined`]        = { name = 'weapon_thrown_bolas_intertwined',        label = 'Intertwined Balas',                  weapontype = 'Thrown',       ammotype = nil,             damagereason = 'Placeholder' },
+    -- fishing
+	[`weapon_fishingrod`]                      = { name = 'weapon_fishingrod',                      label = 'Fishing Rod',                        weapontype = 'Fishing',      ammotype = nil,             damagereason = 'Placeholder' },
 }
