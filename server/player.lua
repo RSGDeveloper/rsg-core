@@ -624,13 +624,6 @@ function RSGCore.Functions.CreateAccountNumber()
     return RSGCore.Functions.CreateAccountNumber()
 end
 
-function RSGCore.Functions.CreatePhoneNumber()
-    local PhoneNumber = math.random(100, 999) .. math.random(1000000, 9999999)
-    local result = MySQL.prepare.await('SELECT EXISTS(SELECT 1 FROM players WHERE JSON_UNQUOTE(JSON_EXTRACT(charinfo, "$.phone")) = ?) AS uniqueCheck', { PhoneNumber })
-    if result == 0 then return PhoneNumber end
-    return RSGCore.Functions.CreatePhoneNumber()
-end
-
 function RSGCore.Player.CreateFingerId()
     local FingerId = tostring(RSGCore.Shared.RandomStr(2) .. RSGCore.Shared.RandomInt(3) .. RSGCore.Shared.RandomStr(1) .. RSGCore.Shared.RandomInt(2) .. RSGCore.Shared.RandomStr(3) .. RSGCore.Shared.RandomInt(4))
     local result = MySQL.prepare.await('SELECT EXISTS(SELECT 1 FROM players WHERE JSON_UNQUOTE(JSON_EXTRACT(metadata, "$.fingerprint")) = ?) AS uniqueCheck', { FingerId })
