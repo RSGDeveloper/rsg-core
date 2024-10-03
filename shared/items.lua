@@ -6,8 +6,8 @@ RSGShared.Items = {
     -----------------------------------------------
 
     -- general items
-    bread_roll   = { name = 'bread_roll',   label = 'Bread Roll',   weight = 100, type = 'item', image = 'consumable_bread_roll.png',      unique = false, useable = true, shouldClose = true, description = 'Bread Roll' },
-    water_bottle = { name = 'water_bottle', label = 'Water Bottle', weight = 100, type = 'item', image = 'consumable_water_filtered.png',  unique = false, useable = true, shouldClose = true, description = 'Drinkable Water' },
+    bread = { name = 'bread', label = 'Bread', weight = 100, type = 'item', image = 'consumable_bread_roll.png',     unique = false, useable = true, shouldClose = true, description = 'Bread Roll' },
+    water = { name = 'water', label = 'Water', weight = 100, type = 'item', image = 'consumable_water_filtered.png', unique = false, useable = true, shouldClose = true, description = 'Drinkable Water' },
 
     -- horse items
     horse_brush     = { name = 'horse_brush',     label = 'Horse Brush',     weight = 100, type = 'item', image = 'horse_brush.png',                unique = false, useable = true, shouldClose = true, description = 'brush used to clean your horse' },
