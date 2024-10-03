@@ -60,21 +60,18 @@ RSGConfig.Player.PlayerDefaults = {
         }
     },
     metadata = {
+        health = 600,
         hunger = 100,
         thirst = 100,
         cleanliness = 100,
         stress = 0,
         isdead = false,
-        inlaststand = false,
         armor = 0,
         ishandcuffed = false,
-        tracker = false,
         injail = 0,
         jailitems = {},
         status = {},
-        phone = {},
         rep = {},
-        currentapartment = nil,
         callsign = 'NO CALLSIGN',
         bloodtype = function() return RSGConfig.Player.Bloodtypes[math.random(1, #RSGConfig.Player.Bloodtypes)] end,
         fingerprint = function() return RSGCore.Player.CreateFingerId() end,
@@ -83,22 +80,6 @@ RSGConfig.Player.PlayerDefaults = {
             hasRecord = false,
             date = nil
         },
-        licences = {
-            driver = true,
-            business = false,
-            weapon = false
-        },
-        inside = {
-            house = nil,
-            apartment = {
-                apartmentType = nil,
-                apartmentId = nil,
-            }
-        },
-        phonedata = {
-            SerialNumber = function() return RSGCore.Player.CreateSerialNumber() end,
-            InstalledApps = {}
-        }
     },
     position = RSGConfig.DefaultSpawn,
     items = {},

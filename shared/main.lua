@@ -4,9 +4,8 @@ local StringCharset = {}
 local NumberCharset = {}
 
 RSGShared.StarterItems = {
-    ['phone'] = { amount = 1, item = 'phone' },
-    ['id_card'] = { amount = 1, item = 'id_card' },
-    ['driver_license'] = { amount = 1, item = 'driver_license' },
+    ['bread_roll'] = { amount = 5, item = 'bread_roll' },
+    ['water_bottle'] = { amount = 5, item = 'water_bottle' },
 }
 
 for i = 48, 57 do NumberCharset[#NumberCharset + 1] = string.char(i) end
