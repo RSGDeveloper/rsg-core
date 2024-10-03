@@ -78,18 +78,6 @@ function RSGCore.Functions.GetPlayerByLicense(license)
     return RSGCore.Player.GetPlayerByLicense(license)
 end
 
----Get player by phone number
----@param number number
----@return table?
-function RSGCore.Functions.GetPlayerByPhone(number)
-    for src in pairs(RSGCore.Players) do
-        if RSGCore.Players[src].PlayerData.charinfo.phone == number then
-            return RSGCore.Players[src]
-        end
-    end
-    return nil
-end
-
 ---Get player by account id
 ---@param account string
 ---@return table?
